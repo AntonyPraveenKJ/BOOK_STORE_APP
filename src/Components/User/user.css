@@ -1,0 +1,73 @@
+.error{
+    color: red;
+}
+
+.side-by-side {
+    display: flex;
+    flex-direction: row;
+    gap: 0px 16px;
+  }
+
+  .proImg{
+    width:20%;
+    height:20%
+  }
+
+ .container{
+    position: 'relative',
+  }
+
+  .image{
+    width:100%
+  }
+
+  .text{
+    position: absolute;
+    top: 23%;
+    left: 30%;
+    width:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size:3rem;
+    text-shadow: 1px 1px 1px black;
+  }
+
+  .text2{
+    position: absolute;
+    bottom: 20%;
+    left: 29%;
+    width:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 60;
+    font-size:1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 1px black;
+  }
+
+  .heading{
+    color:grey;
+    text-decoration: underline;
+  text-align: center;
+  }
+
+  .productCard{
+    border: 1px solid #ccc;
+  transition: box-shadow 0.3s;  
+  transition: transform 0.3s ease-in-out;
+  }
+
+  .productCard:hover {
+    border: 1px solid #5b5b5b;
+    box-shadow: 0 0 50px rgba(9, 9, 9, 0.2);
+    transform: scale(1.1);
+  }
+
+  .addcart{
+    transition: transform 0.2s
+  }
+
+  .addcart:hover{
+    transform: scale(1.1)
+  }
